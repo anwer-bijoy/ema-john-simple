@@ -1,0 +1,38 @@
+.cart {
+  position: sticky;
+  top: 0;
+  padding: 28px 16px;
+}
+.cart .cart-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.cart p {
+  color: #2a414f;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.cart button {
+  width: 100%;
+  margin-top: 57px;
+  padding: 13px 0;
+  font-weight: 400;
+  border: none;
+  background-color: #ff3030;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+.cart button span {
+  color: #fff;
+  margin-right: 8px;
+}
+.cart button:hover {
+  background-color: rgb(230, 0, 0);
+}
